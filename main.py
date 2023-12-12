@@ -10,8 +10,8 @@ cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
 
 counter = 0
 face_match = False
-reference_image = "salah-eddine.jpeg"
-reference_img = face_recognition.load_image_file("salah-eddine.jpeg")
+reference_image = "Elon Musk.jpg"
+reference_img = face_recognition.load_image_file("Elon Musk.jpg")
 reference_encoding = face_recognition.face_encodings(reference_img)[0]
 
 
